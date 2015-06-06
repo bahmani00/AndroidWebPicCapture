@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/imgPicture"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginRight="4dip"
+        android:adjustViewBounds="true"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/lblInfo"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:ellipsize="marquee"
+        android:singleLine="false"
+        android:text="@string/lblDownloadOn" />
+
+</LinearLayout>
